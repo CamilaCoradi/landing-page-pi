@@ -31,7 +31,6 @@
                                         class="fa-regular fa-pen-to-square"></i></a>
                                 <form action="/events/{{ $event->id }}" method="POST">
                                     @csrf
-                                    @method('DELETE')
                                     <button type="submit" class="btn btn-danger delete-btn"><i
                                             class="fa-solid fa-trash-can"></i></button>
                                 </form>
@@ -68,7 +67,6 @@
                             <td>
                                 <form action="/events/leave/{{ $event->id }}" method="POST">
                                     @csrf
-                                    @method("DELETE")
                                     <button type="submit" class="btn btn-danger delete-btn"><i
                                             class="fa-solid fa-trash-can"></i> Sair do evento</button>
                                 </form>
