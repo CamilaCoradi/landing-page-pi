@@ -18,8 +18,8 @@ COPY . .
 RUN composer install
 
 # Comandos Laravel
-RUN php artisan optimize:clear \
-    && php artisan storage:link \
-    && php artisan migrate --force
+RUN php artisan optimize:clear && \
+    php artisan storage:link || true
+
 
 CMD ["php-fpm"]
