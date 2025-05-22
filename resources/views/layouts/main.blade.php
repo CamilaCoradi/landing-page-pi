@@ -49,7 +49,6 @@
                               <li class="nav-item">
                                 <form action="logout" method="POST">
                                     @csrf
-                                     @method('DELETE')
                                     <a href="/logout" class="nav-link" onclick="event.preventDefault(); this.closest('form').submit();">
                                         Sair
                                     </a>

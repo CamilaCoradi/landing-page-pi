@@ -31,7 +31,7 @@
                      @if(count($events) == 0 && $search)
                      <p>Não foi possível encontrar nenhuma atividade com {{$search}}! <a href="/">Ver todas</a></p>
                      @elseif(count($events) == 0)
-                     <p>Não há atividades diponíveis</p>
+                     <p>Não há atividades disponíveis</p>
                      @endif
               </div>
        </div>       
