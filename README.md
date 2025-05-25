@@ -2,6 +2,10 @@
 
 Este projeto foi desenvolvido como parte do Projeto Integrador do Senac SP.
 
+## Link da solução 
+
+[Active Week](https://landing-page-pi-production.up.railway.app/)
+
 ## Participantes
 
 Camila Coradi Garcia Leal
