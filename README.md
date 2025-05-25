@@ -12,7 +12,7 @@ Camila Coradi Garcia Leal
 
 David Duarte Pimenta
 
-Fernando Fraugas Carneiro
+Fernando Fraguas Carneiro
 
 Jessica Silva Azevedo
 
